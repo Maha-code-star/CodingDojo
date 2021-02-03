@@ -1,1 +1,1 @@
-# CodingDojo
+# Electrum Wallet
