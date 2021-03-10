@@ -106,6 +106,3 @@ contract TechInsurance{
      function _exists(uint256 tokenId) public view  returns (bool) {
         return _owners[tokenId] != address(0);
     }
-     
-    
-}
