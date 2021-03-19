@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MetaCoin | Truffle Webpack Demo w/ Frontend</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>Example Truffle Dapp</h1>
+    <p>You have <strong class="balance">loading...</strong> META</p>
+
+    <h1>add prodect</h1>
+
+  
+
+    <label for="receiver">To address:</label>
+    <input
+      type="text"
+      id="receiver"
+      placeholder="e.g. 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+
+    <label for="productId">productId:</label>
+    <input type="text" id="productId" placeholder="productId" />
+
+    <label for="productName">productName:</label>
+    <input type="text" id="productName" placeholder="productName" />
+
+    <label for="price">price:</label>
+    <input type="text" id="price" placeholder="price" />
+
+    <label for="offered">offered:</label>
+    <input type="text" id="offered" placeholder="offered" />
+
+    <label for="ProductOwnerAddress">ProductOwnerAddress:</label>
+    <input type="text" id="ProductOwnerAddress" placeholder="ProductOwnerAddress" />
+
+    <label for="buyerAddress">buyerAddress:</label>
+    <input type="text" id="buyerAddress" placeholder="buyerAddress" />
+
+    <button onclick="App.addProduct()"> Add product </button>
+
+    <p id="status"></p>
+    <p>
+      <strong>Hint:</strong> open the browser developer console to view any
+      errors and warnings.
+    </p>
+    <script src="index.js"></script>
+
+  </form>
+  </body>
+</html>
+  
